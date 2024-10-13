@@ -1,0 +1,76 @@
+.home{
+    background-color: #F7F6F2;
+}
+.about{
+    background-color: #F7F6F2;
+}
+.user{
+    background-color: #EAE6E5;
+}
+.aware{
+    background-color: #707070;
+}
+.shop{
+    background-image: url("shop1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #D4CA49;
+}
+.checkout{
+    background-image: url("checkout.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.book{
+    background-image: url("book&video.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.table th:hover{
+    transform: scale(0.84);
+    transition: 0.5s;
+}
+.table td:hover{
+    transform: scale(0.84);
+    transition: 0.5s;
+}
+.t{
+    margin-top: 50%;
+    width:80%;
+}
+.t th:hover{
+    transform: scale(0.84);
+    transition: 0.5s;
+}
+.f{
+    color: black; 
+    font-size: 150%; 
+    font-weight: bold;
+}
+.f td:hover{
+    transform: scale(0.84);
+    transition: 0.5s;
+}
+/* Default for PC */
+#responsiveImage {
+    content: url('home.jpg');
+    width: 100%;
+}
+
+#aboutImage {
+    content: url('About.png');
+    width: 100%;
+}
+
+/* For mobile devices */
+@media only screen and (max-width: 768px) {
+    #responsiveImage {
+        content: url('homee.png');
+    }
+
+    #aboutImage {
+        content: url('aboutt.png');
+    }
+}
+
+
